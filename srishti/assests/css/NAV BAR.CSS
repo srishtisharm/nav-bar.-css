@@ -1,0 +1,71 @@
+body{
+    margin: 0;
+}
+header{
+    background-color: aqua;
+}
+.flex-container{
+    display: flex;
+}
+header ul {
+    list-style-type: none;
+}
+header ul li{
+    display: inline;
+    margin-left: 50px ;
+}
+header ul li a{
+    font-size: 18px;
+    color: white;
+    text-decoration: none;
+    transition: 2s all;
+}
+header ul li a:hover{
+    color: crimson;
+
+}
+.left-header{
+    flex: 50%;
+}
+.right-header{
+    flex: 50%;
+}
+/*nav css starts here*/
+nav{
+    background-color: blueviolet;
+
+}
+.nav-right{
+    flex: 20%;
+    text-align: center;
+}
+.nav-left h1{
+    color: whitesmoke;
+    font-size: 26px;
+    margin: 10px;
+}
+.nav-right{
+    flex: 50%;
+    text-align: center;
+}
+nav ul{
+    list-style-type: none;
+}
+nav ul li a{
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 800;
+    color: white;
+    transition: 2s all;
+}
+nav ul li{
+    display: inline;
+    margin: 40px;
+
+}
+nav ul li a:hover{
+    background-color: darkgreen;
+    color: black;
+}
+
+
